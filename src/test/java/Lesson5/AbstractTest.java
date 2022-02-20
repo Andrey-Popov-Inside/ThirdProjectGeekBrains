@@ -17,7 +17,7 @@ public abstract class AbstractTest {
 
     @BeforeAll
     static void init(){
-        WebDriverManager.chromedriver().setup();      //Скачивание и установка драйвера.
+        WebDriverManager.chromedriver().setup();      // установка драйвера.
         ChromeOptions options=new ChromeOptions();   //Опции Хрома.
         options.addArguments("start-maximized");     //Открытие полноэкранного формата.
         options.addArguments("--incognito");        //Открытие страницы в режиме инкогнито.

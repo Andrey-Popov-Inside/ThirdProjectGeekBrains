@@ -19,7 +19,7 @@ public class LoginTest extends AbstractTest{
                 .build()
                 .perform();
 
-        Assertions.assertTrue(getDriver().getTitle().equals("Swag Labs"), "Авторизация недоступна");
+        Assertions.assertTrue(getDriver().getTitle().equals("Swag Labs"), "Авторизация не успешна");
 
 
 
